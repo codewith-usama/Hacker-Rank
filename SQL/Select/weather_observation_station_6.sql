@@ -1,7 +1,11 @@
 /*
 Weather Observation Station 6
 =============================
-Given a table STATION that holds data for five fields namely ID, CITY, STATE, NORTHERN LATITUDE and WESTERN LONGITUDE.
+Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+Input Format
+
+The STATION table is described as follows:
 
 +-------------+------------+
 | Field       |   Type     |
@@ -13,7 +17,6 @@ Given a table STATION that holds data for five fields namely ID, CITY, STATE, NO
 | LONG_W      | NUMERIC    |
 +-------------+------------+
 
-Write a query to print the list of CITY that start with vowels in lexicographical order. Do not print duplicates.
 */
 
 SELECT CITY
